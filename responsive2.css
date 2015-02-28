@@ -1,0 +1,340 @@
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(Proxima/ProximaNova-Bold.otf);
+}
+
+@font-face {
+    font-family: ProximaNovaLight;
+    src: url(Proxima/ProximaNova-Light.otf);
+}
+
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url(Proxima/ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: ProximaNovaCondRegular;
+    src: url(Proxima/ProximaNovaCond-Regular.otf);
+}
+
+body {
+	width: 100%;
+	min-height: 800px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	clear: both;
+}
+
+.background1 {
+	background: url("img/background2.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	z-index: 2;
+}
+
+.background2 {
+	background: url("img/background.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	z-index: 3;
+}
+
+#content {
+	width: auto;
+	height: 100%;
+	margin-left: 115px;
+	margin-right: 115px;
+}
+
+#content-title {
+	float: left;
+	font-size: 37px;
+	position: absolute;
+	margin-top: 65px;
+	padding-top: 20px;
+	font-family: "ProximaNovaBold";
+	color: rgb(255, 255, 255);
+	line-height: 0.8;
+}
+
+.info {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 2;
+	position: absolute;
+	margin: 0;
+	padding-top: 55px;
+	width: 410px;
+	font-family: "Merriweather";
+}
+
+.fb {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	margin: 0;
+	padding-top: 55px;
+	text-align: center;
+	font-family: "ProximaNovaRegular";
+	top: 290px;
+	left: 110px;
+}
+
+#contact {
+	background-color: #ffffff;
+	border-radius: 3px;
+	width: 240px;
+	height: 55px;
+	padding: 0;
+	margin-top: 20px;
+	position: absolute;
+	top: 360px;
+	left: 82px;
+}
+
+#contact p {
+	text-align: right;
+	color: #49639E;
+	font-size: 22px;
+	font-family: "ProximaNovaRegular";
+	padding-right: 20px;
+}
+
+#contact img {
+	position: absolute;
+	width: 75px;
+	height: 55px;
+	top: 8px;
+	padding-left: 5px;
+}
+
+#faces {
+	position: absolute;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	width: 540px;
+	height: 80px;
+	top: 434px;
+}
+
+.group {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.group li {
+	display: inline-block;
+}
+
+.group li~li {
+	margin-left: 32px;
+}
+
+.person1 {
+	background-image: url("img/person1.png");
+	background-position: 1px -2px;
+	width: 72px;
+	height: 78px;
+	padding: 0;
+	margin: 0;
+}
+
+.person2 {
+	background-image: url("img/person2.png");
+	background-position: -12px -5px;
+	width: 74px;
+	height: 78px;
+}
+
+.person3 {
+	background-image: url("img/person3.png");
+	background-position: -9px -12px;
+	width: 73px;
+	height: 78px;
+}
+
+.person4 {
+	background-image: url("img/person4.png");
+	background-position: -10px -13px;
+	width: 76px;
+	height: 78px;
+}
+
+.person5 {
+	background-image: url("img/person5.png");
+	background-position: -9px -4px;
+	width: 76px;
+	height: 78px;
+}
+
+#iphone-section {
+	background-image: url("img/f.png");
+	background-position: 1px 0px;
+	position: absolute;
+	width: 175px;
+	height: 340px;
+	float: left;
+	right: 0;
+	top: 75px;
+}
+
+.display-box {
+	position: relative;
+	float: right;
+	width: 140px;
+	height: 220px;
+	background-color: #D9D9D9;
+	right: 16px;
+	top: 56px;
+}
+
+.display-info {
+	font-family: "ProximaNovaLight";
+	font-size: 13px;
+	padding: 10px 20px 0 17px;
+	line-height: 1;
+}
+
+.person-info {
+	position: relative;
+	float: right;
+	width: 99px;
+	height: 102px;
+	background-color: #FFFFFF;
+	padding: 15px 15px 15px 15px;
+	margin: 0 15px 0 2px;
+	right: -10px;
+	top: -10px;
+	border-radius: 8px;
+}
+
+.kerem {
+	background-image: url("img/karen-small.png");
+	background-position: -140px -3px;
+	position: relative;
+	float: left;
+	width: 30px;
+	height: 31px;
+	right: 12px;
+}
+
+.person-info span {
+	float: left;
+	position: relative;
+}
+
+.name {
+	font-family: "ProximaNovaBold";
+}
+
+.title-position {
+	font-family: "ProximaNovaLight";
+}
+
+.company {
+	font-family: "ProximaNovaRegular";
+	color: #47A3FF;
+	left: 0;
+	top: 0;
+}
+
+.desc {
+	font-size: 9px;
+	line-height: 1;
+	text-align: left;
+	padding-left: 0;
+	padding-top: 3px;
+}
+
+.selection {
+	display: inline-flex;
+	position: relative;
+	top: 25px;
+	width: 175px;
+	height: 30px;
+}
+
+.selection div {
+	font-size: 7px;
+	color: #FFFFFF;
+	border-radius: 3px;
+	padding-top: 8px;
+	padding-right: 5px;
+	font-family: "ProximaNovaRegular";
+}
+
+.yesBox {
+	background-color: #8AE6B8;
+	width: 30px;
+	height: 15px;
+	margin-right: 2px;
+	position: relative;
+	left: -13px;
+	text-align: right;
+}
+
+.yesImg {
+	background-image: url("img/yes.png");
+	background-color: transparent;
+	background-position: -19px -18px;
+	width: 12px;
+	height: 8px;
+	position: relative;
+	top: -14px;
+	left: 4px;
+	padding: 0;
+	margin: 0;
+}
+
+.noBox {
+	background-color: #FF6262;
+	width: 30px;
+	height: 15px;
+	margin-right: 2px;
+	position: relative;
+	left: -13px;
+	text-align: right;
+}
+
+.noImg {
+	background-image: url("img/no.png");
+	background-color: transparent;
+	background-position: -19px -18px;
+	width: 12px;
+	height: 8px;
+	position: relative;
+	top: -12px;
+	left: 4px;
+	padding: 0;
+	margin: 0;
+}
+
+.dontKnowBox {
+	background-color: #FFCC66;
+	width: 47px;
+	height: 16px;
+	text-align: center;
+	position: relative;
+	left: -13px;
+}
