@@ -13,6 +13,6 @@ different requests to load a different CSS (might be a bad practice for page loa
 But the reason for that is that if I went with less breakpoints, I would have had to scale all the images in photoshop 
 according to the page and that would take a little more time.
 
-3. First breakpoint occurs at 1130px, second occurs at 1015px, third occurs at occurs at 700px. For the last breakpoint 
+3. First breakpoint occurs at 1130px, second occurs at 1015px, third occurs at occurs at 768px. For the last breakpoint 
 I scaled the iPhone image using photoshop so that at least for the purpose of it, the page should look good on devices 
 with width from 600px to 700px. Below 600px I would have had to scale other images as well as mentioned earlier. 
